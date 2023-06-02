@@ -140,6 +140,9 @@ $(function() {
       namespace: 'faqs',
       beforeEnter(data){
         StckBlck()
+        document.getElementById('guide').addEventListener('click', function(){
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }) 
       }},{
       namespace: 'guide',
       beforeEnter(data){

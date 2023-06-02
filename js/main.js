@@ -153,6 +153,7 @@ document.querySelector('.navigation').addEventListener('click', function(){
 }) 
 
 
+
 function StckBlck(){
     document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
 }
