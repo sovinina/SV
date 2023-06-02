@@ -130,13 +130,20 @@ $(function() {
       namespace: 'home',
       beforeEnter(data){
           Ftrs()
+          document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
       }},{
       namespace: 'media',
       beforeEnter(data){
           Sldr()
+          document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
       }
-  },
-  {
+  },{
+    namespace: 'faqs',
+    beforeEnter(data){
+      document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
+    }
+  }, {
+    namespace: 'guide',
     beforeEnter(data){
       document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
     }
