@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="shortcut icon" href="img/chick.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anim.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Медиа</title>
+</head>
+<body data-barba="wrapper">
+    <div class="loading-container">
+        <!-- <div class="road"><img src="img/road.png" alt=""></div> -->
+        <div class="bus">
+            <img src="img/Bus.png" alt="">
+        </div>
+        <div class="pre"></div>
+      </div>
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/logo_horizontal.png" alt=""></a></div>
+        <div class="head">
+            <ul class="navigation">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="media.html">Медиа</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li onclick="window.open('https://ru.stardewvalleywiki.com/Stardew_Valley')">Вики</li>
+            </ul>
+        </div>
+        <div class="buy">
+            <img src="img/chick.png" alt="">
+            <ul class="l1"><li>Купить сейчас
+                <ul class="l2">
+                    <li><a onclick="window.open('https://store.steampowered.com/app/413150/Stardew_Valley/')">
+                        Steam
+                      </a></li>
+                    <li><a onclick="window.open('https://www.xbox.com/ru-RU/games/store/stardew-valley/C3D891Z6TNQM')">
+                        Xbox
+                      </a></li>
+                    <li><a onclick="window.open('https://www.nintendo.ru/-/-Nintendo-Switch/Stardew-Valley-1287587.html')">
+                        Switch
+                      </a></li>
+                </ul>
+            </li></ul>
+        </div>
+        <div class="mobilenav"><img id="menu" src="img/mobMenu.svg" alt=""></div>
+    </header>
+    <main data-barba="container" data-barba-namespace="media">
+        
+        <div class="back">
+            <div id="wrapper">
+                <h2>История...</h2>
+                <p>Stardew Valley была создана геймдизайнером Эриком Бароне под псевдонимом ConcernedApe. За четыре года разработки в одиночку он овладел необходимыми навыками для создания музыки, графики, программирования и дизайна игры. Stardew Valley была выпущена на ПК 26 февраля 2016 года, и в течение двух месяцев было продано более 1 миллиона копий. В течение нескольких месяцев игра расширила поддержку Mac и Linux, она была выпущена на Xbox One и Playstation 4 в декабре 2016 года, Nintendo Switch в конце 2017 года и iOS в октябре 2018 года. По состоянию на март 2022 года Stardew Valley разошлась тиражом более 20 миллионов копий на всех платформах, при этом 13 миллионов копий было продано только на ПК.</p> 
+                <h2>Видео</h2>
+                <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ot7uXNQskhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <p>Трейлер игры</p>
+                <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/-vlBE3vSfNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <p>Трейлер обновления многопользовательской игры</p>
+                <h2>Скриншоты</h2>
+                
+                <div class="slider">
+                    <div class="scrn">
+                        <div class="scrnshts">
+                            <img src="img/screenshots/sdv_farm_en.png">
+                            <img src="img/screenshots/farm_day_1920x1080.png">
+                            <img src="img/screenshots/farm_evening_1920x1080.png">
+                            <img src="img/screenshots/Multiplayer_Horses.png">
+                            <img src="img/screenshots/Multiplayer_Screenshot2.png">
+                            <img src="img/screenshots/Multiplayer_Screenshot3.png">
+                            <img src="img/screenshots/Mutiplayer_Screenshot1.png">
+                            <img src="img/screenshots/NightMarket.png">
+                            <img src="img/screenshots/sdv_farm_en.png"> 
+                            <img src="img/screenshots/farm_day_1920x1080.png">
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <img src="img/leftBtn.svg" class="sldrLft">
+                        <img src="img/rightBtn.svg" class="sldrRght">
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+    <footer>
+        <div class="footerBlock">
+            <img src="img/Developed.gif">
+            <div class="contacts">
+                <h2>Контакты</h2>
+                <a href="http://twitter.com/ConcernedApe"><img src="img/twitter.svg"> ConcernedApe</a>
+                <a href="https://www.stardewvalley.net"><img src="img/site.svg"> stardewvalley.net</a>
+                <a href="concernedape@stardewvalley.net"><img src="img/mail.svg"> concernedape@stardewvalley.net</a> 
+            </div>
+        </div>
+    </footer>
+    </main>
+
+      <audio src="audio/01. Stardew Valley Overture.mp3" class="audioSrc" onended="End()"></audio>
+      
+      <div class="stickyBlock">
+        <div class="player" id = "player">
+            <div class="play"><img src="img/playBtn.svg" id = "play" alt=""></div>
+            <div class="track"><p id="track"> Overture </p></div>
+            <div class="jukebox"><img src="img/Mini-Jukebox_Off.png" id = "jukebox" alt=""></div>
+            <div class="contPL">
+                <div class="playlist">
+                    <ul>
+                        <li><p id="track1">Overture</p></li>
+                        <li><p id="track2">Cloud Country</p></li>
+                        <li><p id="track3">Grandpa's Theme</p></li>
+                    </ul></div>
+            </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/media.js"></script>
+</body>
+</html>

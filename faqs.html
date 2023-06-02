@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/chick.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anim.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Часто задаваемые вопросы</title>
+</head>
+
+<body data-barba="wrapper">
+    <div class="loading-container">
+        <!-- <div class="road"><img src="img/road.png" alt=""></div> -->
+        <div class="bus">
+            <img src="img/Bus.png" alt="">
+        </div>
+        <div class="pre"></div>
+      </div>
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/logo_horizontal.png" alt=""></a></div>
+        <div class="head">
+            <ul class="navigation">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="media.html">Медиа</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li onclick="window.open('https://ru.stardewvalleywiki.com/Stardew_Valley')">Вики</li>
+            </ul>
+        </div>
+        <div class="buy">
+            <img src="img/chick.png" alt="">
+            <ul class="l1"><li>Купить сейчас
+                <ul class="l2">
+                    <li><a onclick="window.open('https://store.steampowered.com/app/413150/Stardew_Valley/')">
+                        Steam
+                      </a></li>
+                    <li><a onclick="window.open('https://www.xbox.com/ru-RU/games/store/stardew-valley/C3D891Z6TNQM')">
+                        Xbox
+                      </a></li>
+                    <li><a onclick="window.open('https://www.nintendo.ru/-/-Nintendo-Switch/Stardew-Valley-1287587.html')">
+                        Switch
+                      </a></li>
+                </ul>
+            </li></ul></div>
+            <div class="mobilenav"><img id="menu" src="img/mobMenu.svg" alt=""></div>
+    </header>
+    
+    <main data-barba="container" data-barba-namespace="faqs">
+        <div class="back">
+            <h2>Что такое Stardew Valley?</h2>
+            <p> Stardew Valley — это кантри-ролевая игра для Windows / Mac / Linux, Xbox One, Playstation 4,  Playstation VITA, Nintendo Switch, IOS и Android!</p>
+            <h2>Кто создал?</h2>
+            <p>Stardew Valley 1.0 был разработан полностью в одиночку ConcernedApe (Эрик Бароне) за 4,5 года. Дата релиза — 26 февраля 2016 года.</p>
+            <p>Начиная с версии 1.3, были и другие разработчики, которые помогли с обновлениями, в том числе:</p>
+            <p>Артур Ли, «Mr. Podunkian»(1.4 и 1.5 обновления)</p>
+            <p>Том Коксон (многопользовательский сетевой код в 1.3)</p>
+            <p>Алекс Эрландсон, «Zillix» (обновление 1.4)</p>
+            <p>Sickhead Games (консольные порты)</p>
+            <p>Секретная полиция (мобильные порты)</p>
+            <p>...и другие. Полные титры можно найти на титульном экране игры.</p>
+            <h2>Кто издатель?</h2>
+            <p> Stardew Valley самостоятельно публикуется ConcernedApe на всех платформах.</p>
+            <h2>Есть ли у Stardew Valley поддержка контроллера?</h2>
+            <p>Да. Stardew Valley поддерживает контроллеры Xbox One и Xbox 360 на ПК и имеет полную поддержку контроллера на Xbox One, Playstation 4 и Nintendo Switch.</p>
+            <h2>Какие языки поддерживает игра?</h2>
+            <p>В настоящее время Stardew Valley поддерживает английский, немецкий, испанский, бразильский португальский, русский, японский, упрощенный китайский, итальянский, французский, корейский, турецкий и венгерский языки.</p>
+            <h2>Могу ли я публиковать видео об игре на в социальных сетях?</h2>
+            <p>Конечно. Пожалуйста, не стесняйтесь создавать видео о Stardew Valley. У вас есть разрешение на монетизацию ваших видео на YouTube с контентом Stardew Valley.</p>
+            <h2>На каком языке программирования написана Stardew Valley?</h2>
+            <p> Stardew Valley написана на языке C#.</p>
+            <h2>У меня технические проблемы с игрой. Как мне это исправить?</h2>
+            <p>Пожалуйста, проверьте <a href="guide.html"> Руководство по устранению неполадок.</a></p>
+        </div>
+
+        <footer>
+            <div class="footerBlock">
+                <img src="img/Developed.gif">
+                <div class="contacts">
+                    <h2>Контакты</h2>
+                    <a href="http://twitter.com/ConcernedApe"><img src="img/twitter.svg"> ConcernedApe</a>
+                    <a href="https://www.stardewvalley.net"><img src="img/site.svg"> stardewvalley.net</a>
+                    <a href="concernedape@stardewvalley.net"><img src="img/mail.svg"> concernedape@stardewvalley.net</a> 
+                </div>
+            </div>
+        </footer>
+    </main>
+    <audio src="audio/01. Stardew Valley Overture.mp3" class="audioSrc" onended="End()"></audio>
+    <div class="stickyBlock">
+        <div class="player" id = "player">
+            <div class="play"><img src="img/playBtn.svg" id = "play" alt=""></div>
+            <div class="track"><p id="track"> Overture </p></div>
+            <div class="jukebox"><img src="img/Mini-Jukebox_Off.png" id = "jukebox" alt=""></div>
+            <div class="contPL">
+                <div class="playlist">
+                    <ul>
+                        <li><p id="track1">Overture</p></li>
+                        <li><p id="track2">Cloud Country</p></li>
+                        <li><p id="track3">Grandpa's Theme</p></li>
+                    </ul></div>
+            </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

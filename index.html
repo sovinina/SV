@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="shortcut icon" href="img/chick.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anim.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Стардью Валли</title>
+</head>
+
+<body data-barba="wrapper">
+    <div class="loading-container">
+        <!-- <div class="road"><img src="img/road.png" alt=""></div> -->
+        <div class="bus">
+            <img src="img/Bus.png" alt="">
+        </div>
+        <div class="pre"></div>
+      </div>
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/logo_horizontal.png" alt=""></a></div>
+        <div class="head">
+            <ul class="navigation">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="media.html">Медиа</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li onclick="window.open('https://ru.stardewvalleywiki.com/Stardew_Valley')">Вики</li>
+            </ul>
+        </div>
+        <div class="buy">
+            <img src="img/chick.png" alt="">
+            <ul class="l1"><li>Купить сейчас
+                <ul class="l2">
+                    <li><a onclick="window.open('https://store.steampowered.com/app/413150/Stardew_Valley/')">
+                        Steam
+                      </a></li>
+                    <li><a onclick="window.open('https://www.xbox.com/ru-RU/games/store/stardew-valley/C3D891Z6TNQM')">
+                        Xbox
+                      </a></li>
+                    <li><a onclick="window.open('https://www.nintendo.ru/-/-Nintendo-Switch/Stardew-Valley-1287587.html')">
+                        Switch
+                      </a></li>
+                </ul>
+            </li></ul></div>
+        <div class="blockFtrs">
+            <img src="" class="bckgrnd">
+            <img src="img/close.svg" class="close">
+            <div class="cellFtrs">
+                <div class="dscrptn"><h2 id="title"></h2><p id="dscrptnT"></p></div>
+                <div class="imgDscrptn"></div>
+                <div class="navFtrs">
+                    <img src="img/leftBtn.svg" class="leftBtn">
+                    <img src="img/rightBtn.svg" class="rightBtn">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobilenav"><img id="menu" src="img/mobMenu.svg" alt=""></div>
+    <main data-barba="container" data-barba-namespace="home">
+        <!-- <img src="img/Main_Logo.svg" class="mainlogo"> -->
+        <div class="back">
+            <h2>Вы переезжаете в Долину...</h2>
+            <p>Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане и старыми инструментами в руках вы начинаете новую жизнь. Сможете ли вы превратить пустырь в цветущий сад? Это будет непросто. С тех пор, как в городе обосновалась корпорация Джоджа, всё сильно изменилось. Здание городского клуба заброшено. Тем не менее, в долине полно возможностей. Как знать... Может быть, именно вы вернете долине Стардью былое величие!</p>
+            <h2>Особенности</h2>
+            <div class="features">
+                <div class="cell"><div class="block"><img src="img/plus.svg"></div><img src="img/features/0.png" alt="">
+                    <p>Создайте ферму своей мечты</p> </div>
+                <div class="cell"><div class="block"><img src="img/plus.svg"></div><img src="img/features/1.png" alt=""><p>Учитесь жить за счет земли</p></div>
+                <div class="cell"><div class="block"><img src="img/plus.svg"></div><img src="img/features/2.png" alt=""><p>Станьте частью местного сообщества</p></div>
+                <div class="cell"><div class="block"><img src="img/plus.svg"></div><img src="img/features/3.png" alt=""><p>Познакомьтесь с кем-нибудь особенным</p></div>
+                <div class="cell"><div class="block"><img src="img/plus.svg"></div><img src="img/features/4.png" alt=""><p>Исследуйте таинственные пещеры</p></div>
+                <div class="cell"><div class="block"><img src="img/plus.svg"></div><img src="img/features/5.png" alt=""><p>Настройте персонажа под себя</p></div>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="footerBlock">
+                <img src="img/Developed.gif">
+                <div class="contacts">
+                    <h2>Контакты</h2>
+                    <a href="http://twitter.com/ConcernedApe"><img src="img/twitter.svg"> ConcernedApe</a>
+                    <a href="https://www.stardewvalley.net"><img src="img/site.svg"> stardewvalley.net</a>
+                    <a href="concernedape@stardewvalley.net"><img src="img/mail.svg"> concernedape@stardewvalley.net</a> 
+                </div>
+            </div>
+        </footer>
+    </main>
+    <audio src="audio/01. Stardew Valley Overture.mp3" class="audioSrc" onended="End()"></audio>
+    <div class="stickyBlock">
+        <div class="player" id = "player">
+            <div class="play"><img src="img/playBtn.svg" id = "play" alt=""></div>
+            <div class="track"><p id="track"> Overture </p></div>
+            <div class="jukebox"><img src="img/Mini-Jukebox_Off.png" id = "jukebox" alt=""></div>
+            <div class="contPL">
+                <div class="playlist">
+                    <ul>
+                        <li><p id="track1">Overture</p></li>
+                        <li><p id="track2">Cloud Country</p></li>
+                        <li><p id="track3">Grandpa's Theme</p></li>
+                    </ul></div>
+            </div>
+      </div>
+    </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/@barba/core"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+      <script src="js/transition.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/media.js"></script>
+</body>
+</html>

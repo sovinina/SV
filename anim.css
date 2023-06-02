@@ -1,0 +1,71 @@
+@keyframes buy {
+    0%{
+        rotate: 0deg;
+    }
+    10%{
+        rotate: 60deg;
+    }
+    20%{
+        rotate: -60deg;
+    }
+    30%{
+        rotate: 45deg;
+    }
+    40%{
+        rotate: -45deg;
+    }
+    50%{
+        rotate: 30deg;
+    }
+    60%{
+        rotate: -30deg;
+    }
+    70%{
+        rotate: 15deg;
+    }
+    80%{
+        rotate: -15deg;
+    }
+    90%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
+
+@keyframes loading{
+    0%{
+        top: 50%;
+    }
+    10%{
+        top: 48%;
+    }
+    20%{
+        top: 50%;
+    }
+    30%{
+        top: 48%;
+    }
+    40%{
+        top: 50%;
+    }
+    50%{
+        top: 48%;
+    }
+    60%{
+        top: 50%;
+    }
+    70%{
+        top: 48%;
+    }
+    80%{
+        top: 50%;
+    }
+    90%{
+        top: 48%;
+    }
+    100%{
+        top: 50%;
+    }
+}
