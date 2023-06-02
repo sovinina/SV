@@ -135,6 +135,11 @@ $(function() {
       beforeEnter(data){
           Sldr()
       }
+  },
+  {
+    beforeEnter(data){
+      document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
+    }
   }]
   });
 

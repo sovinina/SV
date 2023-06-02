@@ -151,10 +151,10 @@ document.querySelector('.navigation').addEventListener('click', function(){
     }
 }) 
 
-document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
+/* document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
 barba.hooks.enter((data) => {
     document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
-})
+}) */
 
 function Ftrs(){
     const cells = document.querySelectorAll('.cell');
