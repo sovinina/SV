@@ -149,13 +149,14 @@ document.querySelector('.navigation').addEventListener('click', function(){
         document.querySelector('.logo').style.transform = 'translateY(0px)'
         b = false
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }) 
 
-/* document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
-barba.hooks.enter((data) => {
-    document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
-}) */
 
+function StckBlck(){
+    document.querySelector('.stickyBlock').style.height = document.querySelector('.back').getBoundingClientRect().height + 230 + 'px'
+}
+StckBlck()
 function Ftrs(){
     const cells = document.querySelectorAll('.cell');
     const blocks = document.querySelectorAll('.block');
