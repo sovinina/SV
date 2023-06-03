@@ -109,6 +109,9 @@ window.addEventListener("orientationchange", (event) => {
     }
 });
 
+window.addEventListener('resize', ()=>{
+    StckBlck()
+})
 
 let b = false
 

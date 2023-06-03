@@ -127,7 +127,7 @@ $(function() {
       }
     }],
     views:[{
-      namespace: 'home',
+      namespace: 'index',
       beforeEnter(data){
           Ftrs()
           StckBlck()
